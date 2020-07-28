@@ -1,0 +1,9 @@
+{
+    "secure": false,
+    "allow_mqtt_trigger": false,
+    "github_user": "",
+    "github_password": "",
+    "github_repository": "",
+    "current_version": "0.0.0",
+    "last_updated": ""        
+}
