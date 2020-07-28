@@ -30,5 +30,7 @@ echo "* * * * * python /etc/rt_updater/rt_updater_v0.0.1.py >/dev/null 2>&1" >> 
 crontab mycron
 rm mycron
 
+rm install.sh
+
 # Exit from the script with success (0)
 exit 0
