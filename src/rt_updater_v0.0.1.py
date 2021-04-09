@@ -52,7 +52,7 @@ git_repo = my_config['github_repository']
 
 # first curl the file to get the latest release
 os.system("rm /etc/rt_updater/git_release.json")
-if (os.system("curl --insecure -o /etc/rt_updater/git_release.json https://api.github.com/repos/" + my_config['github_user'] + "/" + my_config['github_repository'] + "/releases/latest") !- 0):
+if (os.system("curl --insecure -o /etc/rt_updater/git_release.json https://api.github.com/repos/" + my_config['github_user'] + "/" + my_config['github_repository'] + "/releases/latest") != 0):
     print("error downloadnig git log ... exiting")
 else:  # now compare the file to the existing version
     with open('/etc/rt_updater/git_release.json') as f_gitinfo:
