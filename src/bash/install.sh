@@ -3,8 +3,7 @@
 # author: Jesse Cox
 # description: installer script for runtime updater
 # Create destination folder
-#
-#
+
 
 DESTINATION="/etc/rt_updater"
 VERSION="0.0.1"
