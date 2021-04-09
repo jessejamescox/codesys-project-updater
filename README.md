@@ -1,5 +1,5 @@
 # codesys-project-updater
-Python tool for auto-updating a WAGO controller's e!RUNTIME files based on GitHub releases.  This requires WAGO firmware version 16 and higher or install of the cURL service .ipk.  
+Python tool for auto-updating a WAGO controller's e!RUNTIME files based on GitHub releases.  This requires WAGO firmware version 16 and higher or install of the cURL service .ipk.  Follow these steps to put this together:
 
 You can install this tool using the install.sh script included.  Open a shell session with your controller and paste the following:
     
